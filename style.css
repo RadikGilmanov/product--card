@@ -7,9 +7,9 @@ body {
   font-family: Montserrat, sans-serif;
   font-size: 13px;
   line-height: 18px;
-  color: #515076;
+  color: #515076;;
   background-image:url(images/bg_dandelions.png);
-  background-size: 790;
+  background-size: 790px;
   background-repeat: no-repeat;
   background-position-x: calc(100%/2 - 160px)
 
@@ -19,8 +19,7 @@ body {
   font-size: 70px;
   font-weight: 400;
   line-height: 78px;
-  margin: 0;
-  margin-top: 220 ;
+  margin-top: 220px ;
   margin-bottom: 110px;
   text-align: center; 
 }
