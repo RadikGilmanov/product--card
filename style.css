@@ -7,8 +7,8 @@ body {
   font-family: Montserrat, sans-serif;
   font-size: 13px;
   line-height: 18px;
-  color: #515076;;
-  background-image:url(images/bg_dandelions.png);
+  color: #515076;
+  background-image:url("images/bg_dandelions.png");
   background-size: 790px;
   background-repeat: no-repeat;
   background-position-x: calc(100%/2 - 160px)
