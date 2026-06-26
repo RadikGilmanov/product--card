@@ -1,22 +1,39 @@
+@font-face {
+  font-family: 'Montserrat-VariableFont_wght';
+  src: url("fonts/Montserrat.zip")
+}
+
 body {
-  font-family: Arial, sans-serif;
+  font-family: Montserrat, sans-serif;
   font-size: 13px;
   line-height: 18px;
   color: #515076;
+  background-image:url("images/bg_dandelions.png");
+  background-size: 790px;
+  background-repeat: no-repeat;
+  background-position-x: calc(100%/2 - 160px)
+
 }
 
 .title {
   font-size: 70px;
   font-weight: 400;
   line-height: 78px;
-  margin: 0;
+  margin-top: 220px ;
+  margin-bottom: 110px;
   text-align: center; 
 }
 
 .products-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 45px;
   list-style: none;
   padding: 0;
-  margin: 0;
+  margin: 85px;
+  width: 1110px;
+
 }
 
 .product-card {
@@ -25,7 +42,7 @@ body {
   height: 573px;
   background-color: #e6e6e9;
   padding: 25px;
-  margin: 45px;
+  
 }
 
 
