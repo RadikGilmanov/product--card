@@ -1,5 +1,11 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;  
+}
+
 @font-face {
-  font-family: 'Montserrat-VariableFont_wght';
+  font-family: 'Montserrat';
   src: url("fonts/Montserrat.zip")
 }
 
@@ -12,7 +18,22 @@ body {
   background-size: 790px;
   background-repeat: no-repeat;
   background-position-x: calc(100%/2 - 160px)
+}
 
+.clear-list{
+  list-style: none;
+  margin: 0;
+  padding: 0;  
+}
+
+.catalog__conteiner {
+  width: 1110px;
+  margin: 0 auto;
+}
+
+.compound {
+  width: 49px;
+  height: 18px;
 }
 
 .title {
@@ -21,60 +42,69 @@ body {
   line-height: 78px;
   margin-top: 220px ;
   margin-bottom: 110px;
-  text-align: center; 
+  text-align: center;
 }
 
-.products-list {
+.card {
+  background-color: #f7f7fa;
+  padding: 25px;
+}
+
+.card__image {
+  display: block;
+  margin-bottom: 30px;
+}
+
+.card__category{
+  color: #8c8c8c;
+  text-transform: uppercase;
+}
+
+.products {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   gap: 45px;
-  list-style: none;
-  padding: 0;
-  margin: 85px;
-  width: 1110px;
-
+  margin-bottom: 116px;
 }
 
-.product-card {
+
+.products__item {
   box-sizing: border-box;
   width: 340px;
-  height: 573px;
   background-color: #e6e6e9;
   padding: 25px;
   
 }
 
-
-.category {
-  font-size: 12px;
-  line-height: 24px;
-  color: #A5A3B9;
-  margin-top: 15px;
-  margin-bottom: 5px;
-}
-
-.product-name {
+.card__name {
   font-size: 20px;
   line-height: 27px;
   margin-top: 25px;
 }
 
-.description {
+.card__description {
   width: 287px;
   height: 36px;
+  margin-bottom: 15px;
 }
 
-.compound {
-  width: 49px;
-  height: 18px;
+.card__compaund {
+  margin-bottom: 20px;
+}
 
+.compaund__name {
+  margin-bottom: 5px;
 }
 
 .ingredients {
-  height: 18px;
-  left: 125px;
+  margin-left: -25px;
+  margin-bottom: 5px;
+}
 
+.price-sum {
+  display: flex;
+  justify-content: space-between;
 }
 
 .price {
@@ -85,9 +115,4 @@ body {
 .value {
   width: 73px;
   height: 24px;
-  margin-left: 161px;
-}
-
-.compaund-list {
-  margin-bottom: 20px;
 }
