@@ -143,3 +143,10 @@ body {
   width: 73px;
   height: 24px;
 }
+
+.color-toggle-button {
+  background-color: #00ff00;
+}
+.color-toggle-button--active {
+  background-color: #ff4400;
+}
